@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng1.0.dtd" >
+
+<suite name="Bootcamp" verbose="2">
+	<test name="Bootcamp">
+		<classes>
+			<class name="com.globant.bootcamp.tae.App">
+				<methods>
+					<include name="exercise01" />
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>
